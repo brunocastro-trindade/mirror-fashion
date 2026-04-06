@@ -149,11 +149,28 @@ position: relative;
 
 footer {
     background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25;
 }
 
 .social a {
     height: 32px;
-    width: 32;
+    width: 32px;
 
     display: block;
     text-indent: -9999px;
@@ -171,6 +188,23 @@ footer {
     background-image: url(../img/googleplus.png);
 }
 
-footer {
-    clear: both;
+.menu-opções a:hover {
+    color: #007dc6;
 }
+
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+}
+
